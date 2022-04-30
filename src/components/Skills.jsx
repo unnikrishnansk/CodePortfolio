@@ -1,5 +1,5 @@
 import React from 'react';
-import { Slide } from 'react-awesome-reveal';
+// import { Slide } from 'react-awesome-reveal';
 import skillsLight from '../media/skills-light1.svg';
 import skillsDark from '../media/skills-dark1.svg';
 import Container from 'react-bootstrap/esm/Container';
@@ -21,7 +21,7 @@ const Skills = ({ darkMode }) => {
 	return (
 		<div data-theme={darkMode ? 'dark' : 'light'}>
 			<br></br>
-			<Slide>
+			{/* <Slide> */}
 				<Container>
 					<Row>
 						<Col lg={4} xs={8}>
@@ -117,7 +117,7 @@ const Skills = ({ darkMode }) => {
 					<br></br>
 					<hr></hr>
 				</Container>
-			</Slide>
+			{/* </Slide> */}
 		</div>
 	);
 };

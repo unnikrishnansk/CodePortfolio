@@ -66,51 +66,8 @@ const Experience = ({ darkMode }) => {
 													</Card.Body>
 												</div>
 												<div className="flip-card-back">
-													<p>
-													Intern theory is a career solution and skill building platform which offers internships or jobs to the students and Company can also register themselves and recruits the candidates.
-													</p>
-													<Button
-														variant={
-															darkMode
-																? 'outline-light'
-																: 'outline-dark'
-														}
-														className="skills-btn"
-													>
-														<FontAwesomeIcon
-															className="skill"
-															size="2x"
-															icon={faHtml5}
-														/>
-													</Button>
-													<Button
-														variant={
-															darkMode
-																? 'outline-light'
-																: 'outline-dark'
-														}
-														className="skills-btn"
-													>
-														<FontAwesomeIcon
-															className="skill"
-															size="2x"
-															icon={faCss3Alt}
-														/>
-													</Button>
-													<Button
-														variant={
-															darkMode
-																? 'outline-light'
-																: 'outline-dark'
-														}
-														className="skills-btn"
-													>
-														<FontAwesomeIcon
-															className="skill"
-															size="2x"
-															icon={faJs}
-														/>
-													</Button>
+													
+													
 												</div>
 											</div>
 										</div>
@@ -276,65 +233,9 @@ const Experience = ({ darkMode }) => {
 													</Card.Body>
 												</div>
 												<div className="flip-card-back">
-													<p>
-													Pluralsight is a technology skills platform that provides access to thousands of expert-led video courses, downloadable content, certification prep, and more to help you develop in-demand tech skills.
-													</p>
-													<Button
-														variant={
-															darkMode
-																? 'outline-light'
-																: 'outline-dark'
-														}
-														className="skills-btn"
-													>
-														<FontAwesomeIcon
-															className="skill"
-															size="2x"
-															icon={faHtml5}
-														/>
-													</Button>
-													<Button
-														variant={
-															darkMode
-																? 'outline-light'
-																: 'outline-dark'
-														}
-														className="skills-btn"
-													>
-														<FontAwesomeIcon
-															className="skill"
-															size="2x"
-															icon={faCss3Alt}
-														/>
-													</Button>
-													<Button
-														variant={
-															darkMode
-																? 'outline-light'
-																: 'outline-dark'
-														}
-														className="skills-btn"
-													>
-														<FontAwesomeIcon
-															className="skill"
-															size="2x"
-															icon={faJs}
-														/>
-													</Button>
-													<Button
-														variant={
-															darkMode
-																? 'outline-light'
-																: 'outline-dark'
-														}
-														className="skills-btn"
-													>
-														<FontAwesomeIcon
-															className="skill"
-															size="2x"
-															icon={faBootstrap}
-														/>
-													</Button>
+									
+													
+													
 												</div>
 											</div>
 										</div>

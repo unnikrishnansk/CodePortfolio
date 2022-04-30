@@ -16,12 +16,7 @@ const Home = ({darkMode}) => {
 								HELLO!<code> I'm Unnikrishnan</code>
 							</h1>
 							<h2 className="lead" align="center">
-								I
-								<span
-									class="txt-rotate"
-									data-period="2000"
-									data-rotate='[ " am a Full-Stack Developer.", " love designing Web Apps.", " am working on Problem Solving.", " am a learner for life!" ]'
-								></span>
+								Aspiring Full-Stack Web Developer.
 							</h2>
 						</Col>
 					</Row>

@@ -1,11 +1,11 @@
 
 :root{
-    --bg-color: #eae7dc;
+    --bg-color: #6ebbee;
     --text-color: #000000;
-    --page-color: #eae7dc;
-    --hello: #8e8d8a;
-    --description: #e85a4f;
-    --name: #e98074;
+    --page-color: #bfe7f1;
+    --hello: #221b05;
+    --description: #b90f78;
+    --name: #1a1e30;
     --border-width: 1px;
 }
 
@@ -31,10 +31,10 @@
 }
 
 .navbar .navname{
-    font-size: x-large;
-    margin-left: 20px;
+    font-size: large;
+    margin:auto;
     color: var(--text-color);
-    font-weight: 500;
+    /* font-weight: 500; */
 }
 .navbar .navname:visited{
     color: var(--text-color);
@@ -63,7 +63,9 @@
 .navbar{
     background-color: var(--bg-color);
     color: var(--text-color);
-    padding: 15px;
+    /* padding: 15px; */
+    display: flex;
+    justify-content: space-around;
 }
 .text{
     color: var(--text-color);
@@ -80,9 +82,10 @@
 }
 
 .lead{
-    color: var(--description);
+    color: blueviolet;
     font-size: xx-large;
     font-weight: 300;
+    font-weight: bold;
 }
 code{
     font-family: Helvetica, Arial, sans-serif;
@@ -137,17 +140,17 @@ strong, .with{
     vertical-align: middle;
 }
 .skill-nbcard{
-    color: #ffffff;
+    color: #110303;
     margin-top: 10px;
-    background-color: var(--name);
-    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    background-color:rgba(241, 238, 238, 0.952) ;
+    box-shadow: 0 6px 10px rgba(244, 246, 247, 0.11), 0 0 6px rgba(241, 238, 238, 0.068);
     transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
     cursor: pointer;
 }
-.skill-nbcard:hover{
+/* .skill-nbcard:hover{
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
-}
+} */
 .exp{
     border-width: 1px;
     border-color: var(--name);
@@ -164,7 +167,7 @@ strong, .with{
   
 .flip-card-inner {
     position: relative;
-    transition: transform 1s;
+    /* transition: transform 1s; */
     transform-style: preserve-3d;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
@@ -179,9 +182,9 @@ strong, .with{
     backface-visibility: hidden;
 }
 
-.flip-card-back {
+/* .flip-card-back {
     transform: rotateY(180deg);
-}
+} */
 
 .sbtn{
     margin-top: 20px;
@@ -212,15 +215,15 @@ strong, .with{
     margin-top: 30px;
     height: 250px;
     width: 200px;
-    border-radius: 50%;
-    padding: 10px;
-    background-color: rgb(233,128,116);
+    border-radius: 10%;
+    padding: 3px;
+    background-color: rgb(21, 11, 157);
 }
 .profilepic-dark{
     margin-top: 30px;
     height: 250px;
     width: 200px;
-    border-radius: 50%;
-    padding: 10px;
-    background-color: rgb(157,11,55);
+    border-radius: 10%;
+    padding: 3px;
+    background-color: rgb(21, 11, 157);
 }
